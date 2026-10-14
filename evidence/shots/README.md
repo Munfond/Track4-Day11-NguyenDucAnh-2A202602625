@@ -6,7 +6,7 @@ Nạp `evidence/viewer-three-cases.json` trong chương 9 của `viewer/index.ht
 
 | Ảnh | Cảnh | Thời điểm sự kiện | Thời gian hiển thị trong ảnh | Câu báo cáo |
 |---|---|---:|---:|---|
-| bus_bypass-B-01.png | 1-BUS-baseline | 12,75 s | 12,9 s; ngay sau tiếp xúc | 5 |
+| bus_bypass-B-01.png | 1-BUS-baseline | 12,75 s | 12,8 s; thời gian làm tròn, có thông báo va chạm | 5 |
 | fix-B-01.png | 1-BUS-fixed-ghost | baseline 12,75 s; bản sửa không va chạm | 12,8 s | 6 |
 | crosswalk_block-C-01.png | 2-CROSSWALK-baseline | 21,10 s | 21,1 s | 5 |
 | hazard-bike.png | 3-BICYCLE-fixed-ghost | 5,05 s | 5,1 s | 9 |

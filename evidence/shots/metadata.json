@@ -2,11 +2,11 @@
   {
     "file": "bus_bypass-B-01.png",
     "scene": "1-BUS-baseline",
-    "displayed_time_s": 12.9,
+    "displayed_time_s": 12.8,
     "event_time_s": 12.75,
-    "width": 1327,
-    "height": 917,
-    "sha256": "0f8bf0011d58402af93cd005808ff1b9d4b0b59b332c02c2db7231d905e18403",
+    "width": 1910,
+    "height": 893,
+    "sha256": "18067d9f93d37c0b6bb9399fa94fb74b7b36ebc6ae2f4b660562de649e30fcd7",
     "source": "Original screenshot supplied by the user; copied byte-for-byte, no image editing.",
     "received_client_date": "2026-10-15"
   },

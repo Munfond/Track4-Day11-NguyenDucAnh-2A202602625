@@ -33,8 +33,7 @@
   ],
   "screenshot_provenance": "Four original PNG screenshots provided by the user and preserved byte-for-byte.",
   "snapshot_timing_limitations": [
-    "Bus baseline screenshot displays 12.9 s just after the 12.75 s event; exact time is disclosed in REPORT.md.",
-    "UI displays rounded times in the fix and bicycle screenshots."
+    "UI displays rounded times in the bus baseline, fix and bicycle screenshots; exact event times are disclosed in REPORT.md."
   ],
   "delivery": "Repository commit and GitHub push; duplicate package, ZIP and large CSV cache archived outside the repository.",
   "screenshot_links_verified": true

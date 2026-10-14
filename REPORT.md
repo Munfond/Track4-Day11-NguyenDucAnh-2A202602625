@@ -93,9 +93,9 @@ Các cơ chế dưới đây được kiểm tra bằng lõi Python trên đúng
 
 Ảnh 3D gốc do người dùng cung cấp, giữ nguyên pixel. Ảnh được chụp từ `viewer-three-cases.json`; `evidence/shots/metadata.json` ghi cảnh, thời gian hiển thị và checksum.
 
-![Baseline lách xe buýt: sự kiện 12,75 s, ảnh dừng ở 12,9 s ngay sau va chạm](evidence/shots/bus_bypass-B-01.png)
+![Baseline lách xe buýt: sự kiện 12,75 s, ảnh hiển thị 12,8 s tại va chạm](evidence/shots/bus_bypass-B-01.png)
 
-*B-01 / 1-BUS-baseline: vòng đỏ và thân xe cho thấy tiếp xúc ego–C2. Sự kiện xảy ra ở 12,75 s; thanh thời gian của ảnh hiển thị 12,9 s. Cảnh này ghim policy gốc làm xe chính và dùng bản sửa làm bóng mờ; nhãn policy trong bảng giao diện có thể gây nhầm nên xác định vai trò theo cấu hình cảnh.*
+*B-01 / 1-BUS-baseline: vòng đỏ và thân xe cho thấy tiếp xúc ego–C2. Sự kiện xảy ra ở 12,75 s; thanh thời gian và thông báo va chạm của ảnh hiển thị 12,8 s (làm tròn thời gian). Cảnh này ghim policy gốc làm xe chính và dùng bản sửa làm bóng mờ; nhãn policy trong bảng giao diện có thể gây nhầm nên xác định vai trò theo cấu hình cảnh.*
 
 ![Crosswalk block tại 21,1 s: ego đã dừng nhưng thân xe chắn đường P1](evidence/shots/crosswalk_block-C-01.png)
 
