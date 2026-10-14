@@ -1,5 +1,5 @@
 __pycache__/
 .pytest_cache/
 .venv/
-evidence/
+evidence/exposure_dataset/**/Veh_smoothed_tracks.csv
 .DS_Store

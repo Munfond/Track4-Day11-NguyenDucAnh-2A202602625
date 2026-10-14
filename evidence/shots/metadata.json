@@ -1,0 +1,46 @@
+[
+  {
+    "file": "bus_bypass-B-01.png",
+    "scene": "1-BUS-baseline",
+    "displayed_time_s": 12.9,
+    "event_time_s": 12.75,
+    "width": 1327,
+    "height": 917,
+    "sha256": "0f8bf0011d58402af93cd005808ff1b9d4b0b59b332c02c2db7231d905e18403",
+    "source": "Original screenshot supplied by the user; copied byte-for-byte, no image editing.",
+    "received_client_date": "2026-10-15"
+  },
+  {
+    "file": "fix-B-01.png",
+    "scene": "1-BUS-fixed-ghost",
+    "displayed_time_s": 12.8,
+    "event_time_s": 12.75,
+    "width": 1318,
+    "height": 920,
+    "sha256": "e398b2e1bc658d89cd49859d0653906aeaf1b7fbc410feae78480f1e5ac1dab5",
+    "source": "Original screenshot supplied by the user; copied byte-for-byte, no image editing.",
+    "received_client_date": "2026-10-15"
+  },
+  {
+    "file": "crosswalk_block-C-01.png",
+    "scene": "2-CROSSWALK-baseline",
+    "displayed_time_s": 21.1,
+    "event_time_s": 21.1,
+    "width": 1325,
+    "height": 915,
+    "sha256": "4995016428bf98bea1420a2b61a3c0c0e6f1f8710c5b01a422689da5fd638748",
+    "source": "Original screenshot supplied by the user; copied byte-for-byte, no image editing.",
+    "received_client_date": "2026-10-15"
+  },
+  {
+    "file": "hazard-bike.png",
+    "scene": "3-BICYCLE-fixed-ghost",
+    "displayed_time_s": 5.1,
+    "event_time_s": 5.05,
+    "width": 1327,
+    "height": 915,
+    "sha256": "cddf6ab6d6c2c5811d022148bd5bf4f99f511a52152480b27e0557cdce5f5825",
+    "source": "Original screenshot supplied by the user; copied byte-for-byte, no image editing.",
+    "received_client_date": "2026-10-15"
+  }
+]

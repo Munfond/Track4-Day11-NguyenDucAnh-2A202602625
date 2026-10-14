@@ -1,0 +1,14 @@
+{
+  "dataset": "SinD public sample, Chongqing recording 6_22_NR_1",
+  "repository": "https://github.com/SOTIF-AVLab/SinD",
+  "commit": "930e4dea78d924c6e9a58ff8e378331f93bba8ec",
+  "files": [
+    {
+      "path": "Data/Chongqing/6_22_NR_1/Veh_smoothed_tracks.csv",
+      "url": "https://media.githubusercontent.com/media/SOTIF-AVLab/SinD/930e4dea78d924c6e9a58ff8e378331f93bba8ec/Data/Chongqing/6_22_NR_1/Veh_smoothed_tracks.csv",
+      "bytes": 46452176,
+      "sha256": "86dbc3aa806f199872ba94a1e1abfbed067bedeaa0148f5b977d50927fa24989"
+    }
+  ],
+  "scope": "Observed car passages, not complete road journeys; public samples may not be representative."
+}

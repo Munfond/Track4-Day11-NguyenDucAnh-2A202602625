@@ -1,0 +1,39 @@
+{
+  "source": "Supplementary replay of exact hazard.json scene; not the 1500-draw mine estimate.",
+  "comparisons": [
+    {
+      "policy": "baseline",
+      "event": {
+        "t": 5.05,
+        "f": 101,
+        "a": "ego",
+        "b": "H0",
+        "kind": "contact",
+        "x": 17.648990631103516,
+        "z": 2.3805055618286133,
+        "fake": false
+      },
+      "avoidable": true,
+      "avoidable_foreknown": true,
+      "fire_t": 3.45,
+      "brake_t": 3.45
+    },
+    {
+      "policy": "chosen",
+      "event": {
+        "t": 5.05,
+        "f": 101,
+        "a": "ego",
+        "b": "H0",
+        "kind": "contact",
+        "x": 16.410078048706055,
+        "z": 2.3805055618286133,
+        "fake": false
+      },
+      "avoidable": true,
+      "avoidable_foreknown": true,
+      "fire_t": 3.45,
+      "brake_t": 3.45
+    }
+  ]
+}

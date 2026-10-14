@@ -1,0 +1,41 @@
+{
+  "verified_client_date": "2026-10-15",
+  "mssv": "202602625",
+  "public_todo_tests": {
+    "passed": 31,
+    "source": "python -m pytest -q tests/test_todos.py, final check after screenshot integration; 31 passed."
+  },
+  "full_budget_evidence": true,
+  "protected_sources_match_git_head": true,
+  "report_sections": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "report_numeric_tables_match_evidence": true,
+  "hazard_space_valid": true,
+  "hazard_scene_feasible": true,
+  "exposure": 0.0019783282014351738,
+  "actual_3d_screenshot_count": 4,
+  "ready_to_submit": true,
+  "outstanding": [],
+  "exposure_source": "SinD four public sample records; 0/1938, nominal Wilson upper bound used as a conservative transfer assumption.",
+  "exposure_point_estimate": 0.0,
+  "exposure_unit": "eligible observed car passage; not complete journey",
+  "limitations": [
+    "Data-derived exposure is a conservative nominal bound, not a calibrated whole-journey frequency for town A."
+  ],
+  "screenshot_provenance": "Four original PNG screenshots provided by the user and preserved byte-for-byte.",
+  "snapshot_timing_limitations": [
+    "Bus baseline screenshot displays 12.9 s just after the 12.75 s event; exact time is disclosed in REPORT.md.",
+    "UI displays rounded times in the fix and bicycle screenshots."
+  ],
+  "delivery": "Repository commit and GitHub push; duplicate package, ZIP and large CSV cache archived outside the repository.",
+  "screenshot_links_verified": true
+}

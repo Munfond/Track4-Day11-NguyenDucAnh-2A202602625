@@ -1,0 +1,74 @@
+{
+  "format": "avsim-studio/1",
+  "params": {
+    "cutT0": 6.5,
+    "cutDur": 4.0,
+    "cutV": 14.0,
+    "cutDs": -1.0,
+    "pedT0": 11.0,
+    "pedV": 1.35,
+    "busGo": 17.0,
+    "tgT": 1.1,
+    "cutGap": 12.0,
+    "pedGap": 4.5,
+    "mu": 0.8,
+    "pedLook": 1,
+    "cutBrake": 0.0,
+    "civil": true
+  },
+  "policy": {},
+  "hazards": [
+    {
+      "x": 0.0,
+      "lane": "E2",
+      "d": 0.0,
+      "v": 3.5,
+      "swerve": 2.8,
+      "swDur": 2.2,
+      "t0": 0.0,
+      "trig": 12.0,
+      "type": "bike"
+    }
+  ],
+  "ego": "planner",
+  "world": "town",
+  "space": {
+    "h0_x": [
+      0.0,
+      40.0
+    ],
+    "h0_v": [
+      2.8,
+      4.4
+    ],
+    "h0_swerve": [
+      2.65,
+      2.85
+    ],
+    "h0_swDur": [
+      2.2,
+      2.6
+    ],
+    "h0_trig": [
+      10.0,
+      18.0
+    ]
+  },
+  "exposure": 0.0019783282014351738,
+  "why": "Engineering stress-test of a slow bicycle entering ego lane from E2 before the bus stop; not a fitted real-world distribution. Speed h0_v=[2.8,4.4] m/s (10.08-15.84 km/h) is a low-speed envelope informed by FHWA-HRT-05-137 chapter 2, which reviews observed location-average bicycle speeds around 10-16 km/h: https://www.fhwa.dot.gov/publications/research/safety/pedbike/05137/chapter2.cfm . h0_x=[0,40] m selects the first 40 m of this simulation street, ahead of initial ego x=-40 m and before the bus at x=106 m; it is a map-defined test zone, not a measured spatial prior. The E2 centre is z=5.25 m and ego lane centre z=1.75 m. h0_swerve=[2.65,2.85] m ends the bicycle at z=2.40-2.60 m, inside the ego collision corridor; this tests a lane-entry manoeuvre, not a small pothole wobble. h0_swDur=[2.2,2.6] s is constrained by the cosine-manoeuvre acceleration pi^2*swerve/(2*swDur^2); worst case is 2.906 m/s^2, below studio.BIKE_LAT_MAX=3. h0_trig=[10,18] m sweeps close encounters around the ego maximum-brake stopping-distance scale: at 12.5 m/s it is 9.95 m on mu=.8 and 15.93 m on mu=.5, before allowing for bicycle motion and body lengths. The range is a deliberate engineering challenge with both avoidable and potentially unavoidable outcomes, not a natural gap distribution. All five ranges are sampled uniformly only for this sensitivity test. Exposure is now a data-derived conservative assumption: all four public SinD sample recordings at repository commit 930e4dea78d924c6e9a58ff8e378331f93bba8ec (https://github.com/SOTIF-AVLab/SinD) were analysed using lab11/exposure_dataset.py. There are 1947 car tracks, of which 1938 last at least 3 s, and 185 bicycle tracks. Each eligible car passage is counted once. The prespecified event requires a bicycle at 2.8-4.4 m/s, 10-18 m ahead, initial lateral separation >1.6 and <=4.5 m, same direction within 30 degrees and longitudinal closing speed >0.1 m/s, and intrusion to <=1.6 m with at least 1 m lateral approach within 2.6 s; car turning/drifting is filtered. Observed k=0/N=1938 gives point estimate 0 and nominal Wilson 95% interval [0,0.0019783282014351738]. We use its UPPER endpoint as exposure to run a conservative model scenario, not as a positive observed frequency; zero hits does not prove zero exposure. Primary and sensitivity bands 12-16 m and 8-22 m all have k=0/N=1938 after the physical closing check. An initial geometric-only 8-22 m detector had one candidate, excluded on inspection because the bicycle was moving away from the car; the before-check result is retained separately as evidence/exposure_geometric_before_closing_check.json. The primary count and bound did not change. Counts, criteria, eligible IDs, source URLs, checksums and one sensitivity example are in evidence/exposure.json and evidence/exposure_dataset/. This empirical unit is a car passage through the observed intersection, not a full journey. Transfer to one 24 s lab street passage, and from Chinese intersections to town A, is an explicit unvalidated modelling assumption. Public sample selection, boundary truncation and correlated road users limit representativeness, and Wilson independence is only nominal. The synthetic lane-entry amplitudes/time ranges remain an engineering stress envelope rather than a fitted conditional distribution. Multiplying the hazard probability by this exposure gives a model result under the conservative transfer assumption, not a certified real-world per-journey frequency.",
+  "exposure_basis": {
+    "dataset": "All four publicly available SinD sample records at the fixed repository commit",
+    "repository": "https://github.com/SOTIF-AVLab/SinD",
+    "commit": "930e4dea78d924c6e9a58ff8e378331f93bba8ec",
+    "count": 0,
+    "eligible_car_passages": 1938,
+    "point_estimate": 0.0,
+    "nominal_wilson_interval": [
+      0.0,
+      0.0019783282014351738
+    ],
+    "method": "Use nominal Wilson upper limit as a conservative model transfer assumption, not as a measured positive frequency.",
+    "unit": "one eligible observed car passage through an intersection",
+    "whole_journey_frequency": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "SinD public sample, Xi'an recording Xi'an_412_m1",
+  "repository": "https://github.com/SOTIF-AVLab/SinD",
+  "commit": "930e4dea78d924c6e9a58ff8e378331f93bba8ec",
+  "files": [
+    {
+      "path": "Data/Xi'an/Xi'an_412_m1/Veh_smoothed_tracks.csv",
+      "url": "https://media.githubusercontent.com/media/SOTIF-AVLab/SinD/930e4dea78d924c6e9a58ff8e378331f93bba8ec/Data/Xi%27an/Xi%27an_412_m1/Veh_smoothed_tracks.csv",
+      "bytes": 33613874,
+      "sha256": "1bf5d8450577249beb9c97bc210e7510babf0796ba817f9a88c64d19a5a5e4a7"
+    }
+  ],
+  "scope": "Observed car passages, not complete road journeys; public samples may not be representative."
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "SinD v1 public sample, Tianjin recording 8_2_1",
+  "repository": "https://github.com/SOTIF-AVLab/SinD",
+  "commit": "930e4dea78d924c6e9a58ff8e378331f93bba8ec",
+  "files": [
+    {
+      "path": "Data/Tianjin/8_2_1/Veh_smoothed_tracks.csv",
+      "url": "https://media.githubusercontent.com/media/SOTIF-AVLab/SinD/930e4dea78d924c6e9a58ff8e378331f93bba8ec/Data/Tianjin/8_2_1/Veh_smoothed_tracks.csv",
+      "bytes": 36940154,
+      "sha256": "c377452a22ad0d57e2ebc9a8bccf050ef50c32c10ce35d7984a12edc24e532b5"
+    },
+    {
+      "path": "Data/Tianjin/8_2_1/Veh_tracks_meta.csv",
+      "url": "https://media.githubusercontent.com/media/SOTIF-AVLab/SinD/930e4dea78d924c6e9a58ff8e378331f93bba8ec/Data/Tianjin/8_2_1/Veh_tracks_meta.csv",
+      "bytes": 60647,
+      "sha256": "5b085c6923a0efc09ad9e9baeb3b3e631ffe61b09a89708b0e511f7b4c198c04"
+    },
+    {
+      "path": "Data/Tianjin/8_2_1/recording_metas.csv",
+      "url": "https://media.githubusercontent.com/media/SOTIF-AVLab/SinD/930e4dea78d924c6e9a58ff8e378331f93bba8ec/Data/Tianjin/8_2_1/recording_metas.csv",
+      "bytes": 225,
+      "sha256": "a566e05b024a54f1818461e8f02cb90907652f255cf84229300ecfc1f8abdc22"
+    }
+  ],
+  "scope": "Observed car passages in one intersection recording, not complete road journeys or calibrated Vietnam-town frequency."
+}

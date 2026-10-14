@@ -1,0 +1,14 @@
+{
+  "dataset": "SinD public sample, Changchun recording changchun_pudong_507_009",
+  "repository": "https://github.com/SOTIF-AVLab/SinD",
+  "commit": "930e4dea78d924c6e9a58ff8e378331f93bba8ec",
+  "files": [
+    {
+      "path": "Data/Changchun/changchun_pudong_507_009/Veh_smoothed_tracks.csv",
+      "url": "https://media.githubusercontent.com/media/SOTIF-AVLab/SinD/930e4dea78d924c6e9a58ff8e378331f93bba8ec/Data/Changchun/changchun_pudong_507_009/Veh_smoothed_tracks.csv",
+      "bytes": 129987853,
+      "sha256": "f3011d7dc1786f940981a9d49c7f83c7860beda9d14ed0e06c995f7b7e590692"
+    }
+  ],
+  "scope": "Observed car passages, not complete road journeys; public samples may not be representative."
+}
